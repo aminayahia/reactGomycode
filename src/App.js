@@ -1,10 +1,26 @@
 //import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import imageInSrc from "./imageInSrc.png"
 
 function App() {
   return (
     <div className="App">
+      <div style={{border:"solid 1px black",maxWidth:"100vw"}}>
+
+            <h1 className="title red">Your name here</h1>
+
+            <br />
+
+            <img src={imageInSrc} alt="" />
+
+            <br />
+
+            <img src="/imageInPublic.png" alt="" />
+
+        </div>
+
+
       <header className="App-header">
         <form className="p-3 mb-2 bg-light text-dark">
           <div className="form-group">
