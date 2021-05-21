@@ -1,4 +1,7 @@
 //import logo from './logo.svg';
+import Address from './Profile/Address';
+import FullName from './Profile/FullName';
+import ProfilePhoto from './Profile/ProfilePhoto';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import imageInSrc from "./imageInSrc.png"
@@ -7,6 +10,9 @@ function App() {
   return (
     <div className="App">
       <div style={{border:"solid 1px black",maxWidth:"100vw"}}>
+           <ProfilePhoto /><br />
+             <span style={{color: "green"}}>Nom et Prénon : </span><FullName />
+             <span style={{color: "green"}}>Adresse : </span><Address />
 
             <h1 className="title red">Your name here</h1>
 
